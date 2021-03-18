@@ -1,0 +1,45 @@
+$color-success: #119C59;
+$color-text: #25282B;
+$color-secondary-text:#52575C;
+$color-main-gradient:linear-gradient(#25158B, #A935D6);
+$color-main:#25158B;
+$color-bkgr:#FAF9F7;
+// .component1 {
+//   padding: 0 31px 0 0;
+//   display: flex;
+//   align-items: flex-start;
+// }
+// .listItemDisabled {
+//   margin-right: 8px;
+//   display: flex;
+//   align-items: center;
+// }
+// .iconOutlinedSuggestedCircleC {
+//   margin-right: 7px;
+// }
+
+.checked{
+    height: 58px;
+    width: 232px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: line-through;
+    color: $color-success;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    margin: 0px;
+}
+.regular{
+  height: 58px;
+  width: 232px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: $color-text;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  margin: 0px;
+}
