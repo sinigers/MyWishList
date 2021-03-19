@@ -1,13 +1,14 @@
 import React from "react";
-import { Header, AddItem, ShoppingList, Glossary } from ".";
+import { Header, AddItem, ShoppingList, Glossary, NewList } from ".";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <ShoppingList />
       <AddItem />
-      <Glossary />
+      <Glossary /> */}
+      <NewList />
     </div>
   );
 }

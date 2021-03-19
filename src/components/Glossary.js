@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Component1disabled.module.scss";
-
+import options from "./data";
 import PropTypes from "prop-types";
 import Done from "@material-ui/icons/Done";
 import MenubookIcon from "@material-ui/icons/FiberManualRecordOutlined";
@@ -10,6 +10,14 @@ export default function Glossary() {
   return (
     <div className="div-flexColmn">
       <div className="div-flexRow">
+        <div>
+          {/* item list from data */}
+          {/* <div>
+      {options.map(option => (
+        <p className={styles.regular} key={option.id}>{option.label}</p>
+      ))}
+    </div> */}
+        </div>
         <h2 className="mt-3">Glossary</h2>
         <img
           alt=""

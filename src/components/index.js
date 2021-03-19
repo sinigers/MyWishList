@@ -5,6 +5,7 @@ import ShoppingList from "./ShoppingList";
 import InListItem from "./InListItem";
 import InBasketItem from "./InBasketItem";
 import Glossary from "./Glossary";
+import NewList from "./NewList";
 
 export {
   Header,
@@ -13,5 +14,6 @@ export {
   ShoppingList,
   InListItem,
   InBasketItem,
-  Glossary
+  Glossary,
+  NewList
 };
