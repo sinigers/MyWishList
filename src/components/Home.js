@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Glossary />
-      <AddItem />
       <ShoppingList />
+      <AddItem />
+      <Glossary />
     </div>
   );
 }

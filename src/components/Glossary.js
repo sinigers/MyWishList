@@ -4,6 +4,7 @@ import styles from "./Component1disabled.module.scss";
 import PropTypes from "prop-types";
 import Done from "@material-ui/icons/Done";
 import MenubookIcon from "@material-ui/icons/FiberManualRecordOutlined";
+import ArowDown from "@material-ui/icons/KeyboardArrowDown";
 
 export default function Glossary() {
   return (
@@ -18,6 +19,12 @@ export default function Glossary() {
       <div className="div-flexRow">
         <p className="p-body2">Oct 30 2020</p>
         <p className="p-body2">15 items</p>
+      </div>
+      <div className="div-flexRow">
+        <p className={styles.categoryTitle}>Friuts &amp; Vegetables</p>
+        <p>3</p>
+        <Done />
+        <ArowDown />
       </div>
 
       <div className="div-flexRow">

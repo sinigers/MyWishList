@@ -12,16 +12,16 @@ import BottomNavBar from "./components/BottomNavBar";
 export default function App() {
   return (
     <div className="container-app">
-      <BottomNavBar />
-      <Login />
-      <ListItemRegular />
-      <ListItemDisabled />
       <NavBar />
       <Switch>
         <Route path="/">
           <Home />
         </Route>
       </Switch>
+      <BottomNavBar />
+      <Login />
+      <ListItemRegular />
+      <ListItemDisabled />
     </div>
   );
 }

@@ -3,15 +3,21 @@ export default [
     label: "Kiwi",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "1"
   },
-  { label: "Apple", quantity: 1, unit: "кг", type: "плод", id: "2" },
+  {
+    label: "Apple",
+    quantity: 1,
+    unit: "кг",
+    type: "Плодове и Зеленчуци",
+    id: "2"
+  },
   {
     label: "Ягоди",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "3"
   },
   {
@@ -32,7 +38,7 @@ export default [
     label: "Кафе",
     quantity: 1,
     unit: "кг",
-    type: "зърнени",
+    type: "Алкохол и Кафе",
     id: "6"
   },
   {
@@ -67,7 +73,7 @@ export default [
     label: "Кисело мляко",
     quantity: 1,
     unit: "бр",
-    type: "млечни",
+    type: "Млечни и яйца",
     id: "11"
   },
   {
@@ -109,7 +115,7 @@ export default [
     label: "Картофи",
     quantity: 1,
     unit: "бр",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "17"
   },
   {
@@ -120,10 +126,10 @@ export default [
     id: "18"
   },
   {
-    label: "Плодове",
+    label: "Плодове и Зеленчуциове",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "19"
   },
   {
@@ -172,56 +178,56 @@ export default [
     label: "Стафиди",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "26"
   },
   {
     label: "Гъби",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "27"
   },
   {
     label: "Чушки",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "28"
   },
   {
     label: "Домати",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "29"
   },
   {
     label: "Краставици",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "30"
   },
   {
     label: "Лук",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "31"
   },
   {
     label: "Праз лук",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "32"
   },
   {
     label: "Тиква",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "33"
   },
   {
@@ -242,7 +248,7 @@ export default [
     label: "Домати консерва",
     quantity: 1,
     unit: "бр",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "34"
   },
   {
@@ -319,70 +325,70 @@ export default [
     label: "Бира",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "44"
   },
   {
     label: "Вино",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "45"
   },
   {
     label: "Уиски",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "45"
   },
   {
     label: "Ром",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "46"
   },
   {
     label: "Ракия",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "47"
   },
   {
     label: "Мента",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "48"
   },
   {
     label: "Мастика",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "49"
   },
   {
     label: "Текила",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "50"
   },
   {
     label: "Шампанско",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "51"
   },
   {
     label: "Бейлис",
     quantity: 1,
     unit: "бр",
-    type: "алкохол",
+    type: "Алкохол и Кафе",
     id: "52"
   },
   {
@@ -466,56 +472,56 @@ export default [
     label: "Мандарини",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "64"
   },
   {
     label: "Праскови",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "65"
   },
   {
     label: "Ябълки",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "66"
   },
   {
     label: "Грейпфрукт",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "67"
   },
   {
     label: "Круши",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "68"
   },
   {
     label: "Нар",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "69"
   },
   {
     label: "Диня",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "70"
   },
   {
     label: "Пъпеш",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "71"
   },
   {
@@ -599,7 +605,7 @@ export default [
     label: "Маслини",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "83"
   },
   {
@@ -641,28 +647,28 @@ export default [
     label: "Зелен фасул консерва",
     quantity: 1,
     unit: "бр",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "89"
   },
   {
     label: "Зелен фасул",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "90"
   },
   {
     label: "Ананас",
     quantity: 1,
     unit: "бр",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "91"
   },
   {
     label: "Тиквички",
     quantity: 1,
     unit: "кг",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "92"
   },
   {
@@ -690,14 +696,14 @@ export default [
     label: "Сода",
     quantity: 1,
     unit: "бр",
-    type: "безалкохолно",
+    type: "безалкохолни напитки",
     id: "96"
   },
   {
     label: "Зеле",
     quantity: 1,
     unit: "кв",
-    type: "зеленчук",
+    type: "Плодове и Зеленчуци",
     id: "97"
   },
   {
@@ -711,42 +717,42 @@ export default [
     label: "Компот",
     quantity: 1,
     unit: "бр",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "99"
   },
   {
     label: "Сливи",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "100"
   },
   {
     label: "Праскови",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "102"
   },
   {
     label: "Кайсии",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "103"
   },
   {
     label: "Авокадо",
     quantity: 1,
     unit: "кг",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "105"
   },
   {
     label: "Ябълка райска",
     quantity: 1,
     unit: "бр",
-    type: "плод",
+    type: "Плодове и Зеленчуци",
     id: "106"
   },
   {
