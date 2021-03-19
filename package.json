@@ -9,6 +9,7 @@
     "@material-ui/icons": "4.11.2",
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
+    "moment": "2.29.1",
     "react": "17.0.1",
     "react-bootstrap": "1.4.3",
     "react-bootstrap-typeahead": "5.1.4",

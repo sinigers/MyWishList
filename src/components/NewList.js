@@ -6,6 +6,9 @@ import Done from "@material-ui/icons/Done";
 import AddIcon from "@material-ui/icons/AddCircleRounded";
 import ArowDown from "@material-ui/icons/KeyboardArrowDown";
 import { Typeahead } from "react-bootstrap-typeahead";
+import moment from "moment";
+
+const toDay = moment().format("ll");
 
 export default function Glossary() {
   return (
@@ -19,7 +22,8 @@ export default function Glossary() {
         />
       </div>
       <div className="div-flexRow">
-        <p className="p-body2">Oct 30 2020</p>
+        <p className="p-body2">{toDay}</p>
+
         <p className="p-body2">0 items</p>
       </div>
       <div className="div-flexRow">
@@ -99,7 +103,7 @@ export default function Glossary() {
       </div>
       <div>
         <p>What would you like to buy?</p>
-        <p>Your list is empty</p>
+        <p>Your list is empty.</p>
       </div>
       <Typeahead
         id="basic-example"
