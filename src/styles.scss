@@ -24,12 +24,13 @@ h5{
   left: 50%;
   margin-left: -175px;
   margin-top: 35px;
-  width: 350px;
+  width: 400px;
   padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   box-shadow: inset 1px 1px 0 white;
-  max-height: 400px;
+  max-height: 6
+  00px;
 }
 
 .header {
@@ -79,12 +80,16 @@ h5{
   flex-direction: row;
   width: 288px;
   align-items: center;
+  justify-content: center
  
 }
 .div-flexColmn {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-align: center;
+  align-items: center
+  
   
 }
 .p-body2 {

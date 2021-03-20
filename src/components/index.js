@@ -6,6 +6,7 @@ import InListItem from "./InListItem";
 import InBasketItem from "./InBasketItem";
 import Glossary from "./Glossary";
 import NewList from "./NewList";
+import BottomNavBar from "./BottomNavBar";
 
 export {
   Header,
@@ -15,5 +16,6 @@ export {
   InListItem,
   InBasketItem,
   Glossary,
-  NewList
+  NewList,
+  BottomNavBar
 };

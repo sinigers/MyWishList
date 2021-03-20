@@ -13,7 +13,6 @@ import MenubookIcon from "@material-ui/icons/MenuBook";
 const styles = {
   root: {
     // background: "linear-gradient(#25158B, #A935D6)",
-
     width: 360
   }
 };

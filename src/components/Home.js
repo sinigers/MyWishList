@@ -1,5 +1,12 @@
 import React from "react";
-import { Header, AddItem, ShoppingList, Glossary, NewList } from ".";
+import {
+  Header,
+  AddItem,
+  ShoppingList,
+  Glossary,
+  NewList,
+  BottomNavBar
+} from ".";
 
 export default function Home() {
   return (
@@ -9,6 +16,7 @@ export default function Home() {
       <AddItem />
       <Glossary /> */}
       <NewList />
+      <BottomNavBar />
     </div>
   );
 }

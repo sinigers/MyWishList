@@ -22,7 +22,7 @@ export default function App() {
       <ListItemRegular />
       <ListItemDisabled /> */}
       <Home />
-      <BottomNavBar />
+      {/* <BottomNavBar /> */}
     </div>
   );
 }

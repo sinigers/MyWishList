@@ -7,6 +7,7 @@ import AddIcon from "@material-ui/icons/AddCircleRounded";
 import ArowDown from "@material-ui/icons/KeyboardArrowDown";
 import { Typeahead } from "react-bootstrap-typeahead";
 import moment from "moment";
+import { AddItem } from ".";
 
 const toDay = moment().format("ll");
 
@@ -78,7 +79,7 @@ export default function Glossary() {
           />
         </svg>
       </div>
-      <div>
+      <div style={{ margin: "32px 0 0 0" }}>
         <svg
           width="190"
           height="171"
@@ -105,15 +106,17 @@ export default function Glossary() {
         <p>What would you like to buy?</p>
         <p>Your list is empty.</p>
       </div>
-      <Typeahead
-        id="basic-example"
-        placeholder="Search Item"
-        // selected={selected}
-        // onChange={setSelected}
-        // value={input}
-        // onChange={handleInputChange}
-        options={options}
-      />
+      <div style={{ margin: "0 0 24px 0" }}>
+        <Typeahead
+          id="basic-example"
+          placeholder="Search Item"
+          // selected={selected}
+          // onChange={setSelected}
+          // value={input}
+          // onChange={handleInputChange}
+          options={options}
+        />
+      </div>
     </div>
   );
 }
